@@ -1,6 +1,8 @@
+package frc.robot.subsystems;
+
 public interface Reportable {
     public enum LOG_LEVEL {
-        All,
+        ALL,
         MEDIUM,
         MINIMAL,
         OFF
